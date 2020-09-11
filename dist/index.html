@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>WEATHER App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="/icon.83aa3da3.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="/normalize.1114379f.css">
+  <link rel="stylesheet" href="/main.c52e0fe2.css">
+  <meta name="theme-color" content="#fafafa">
+<script src="/normalize.1114379f.js"></script><script src="/main.c52e0fe2.js"></script></head>
+
+<body>
+  <!-- Add your site or application content here -->
+  <div class="super-banner-message">
+    <p>WELCOME TO THE WEATHER SITE.</p>
+  </div>
+  <!--FIRST SECTION cities research-->
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Please provide the city name</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus="">
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <section>
+    <div>
+      <button type="button" onclick="updateSection()">RESET</button>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <small>Made with <span>❤</span> by <a href="http://pluralsight.com/" target="_blank">pluralsight</a>
+      </small>
+    </div>
+  </footer>
+  <!-- SECOND PART-->
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+      </ul>
+    </div>
+  </section>
+  <script src="/modernizr-3.11.2.min.659b9f56.js"></script>
+  <script src="/plugins.7f97feee.js"></script>
+  <script src="/main.fb6bbcaf.js"></script>
+  <script src="/utils.8598244e.js"></script>
+  
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>window.ga = function () {
+  ga.q.push(arguments);
+};
+
+ga.q = [];
+ga.l = +new Date();
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('set', 'transport', 'beacon');
+ga('send', 'pageview');</script>
+  <script src="https://www.google-analytics.com/analytics.js" async=""></script>
+</body>
+
+</html>
